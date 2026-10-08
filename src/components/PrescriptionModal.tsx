@@ -102,24 +102,24 @@ export default function PrescriptionModal({ prescription, onClose }: Prescriptio
               </div>
               <div>
                 <h2 className="text-xl font-bold text-slate-900">
-                  {doctor?.name || 'Dr. Sarah Jenkins, MD, FACC'}
+                  {doctor?.name || 'Dr. Farzana Tarannum Suma, MD, FACC'}
                 </h2>
                 <p className="text-xs font-semibold text-teal-700">
-                  {doctor?.doctorProfile?.title || 'Senior Consultant Physician & Cardiologist'}
+                  {doctor?.doctorProfile?.title || 'Senior Consultant Physician,Obstetrics & Gynecology & Cardiologist'}
                 </p>
                 <p className="text-xs text-slate-500">
                   {doctor?.doctorProfile?.specialization || 'Internal Medicine, Cardiology & Preventive Health'}
                 </p>
                 <p className="text-xs text-slate-400 mt-1">
-                  {doctor?.doctorProfile?.clinicAddress || '742 Evergreen Medical Blvd, Suite 400, New York, NY'}
+                  {doctor?.doctorProfile?.clinicAddress || 'Grameen Kollan Institute , Mirpur, Dhaka'}
                 </p>
               </div>
             </div>
 
             <div className="sm:text-right text-xs text-slate-600">
-              <p className="font-bold text-slate-900">Dr. Sarah Jenkins Medical Practice</p>
-              <p>Hotline: +1 (555) 382-7492</p>
-              <p>Email: doctor@drjenkinsclinic.com</p>
+              <p className="font-bold text-slate-900">Dr. Farzana Tarannum Suma Medical Practice</p>
+              <p>Hotline: +1 (880) 01718088596</p>
+              <p>Email: farzanafts@gmail.com</p>
               <p className="text-slate-400 mt-1">
                 Date:{' '}
                 {prescription.createdAt
@@ -292,7 +292,7 @@ export default function PrescriptionModal({ prescription, onClose }: Prescriptio
               <p className="text-[10px] text-slate-400 uppercase font-semibold">
                 Authorized Signature & License
               </p>
-              <p className="text-[9px] text-teal-600 font-mono">NY-MED-84920491-VERIFIED</p>
+              <p className="text-[9px] text-teal-600 font-mono">BMDC-84920491-VERIFIED</p>
             </div>
           </div>
         </div>

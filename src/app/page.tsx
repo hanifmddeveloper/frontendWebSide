@@ -22,6 +22,7 @@ import api from '../lib/api';
 import ServiceCard from '../components/ServiceCard';
 import ReviewCard from '../components/ReviewCard';
 import DoctorCredentials from '../components/DoctorCredentials';
+import images from '../images/Dr.Suma.jpg';
 
 export default function HomePage() {
   const [services, setServices] = useState<any[]>([]);
@@ -159,7 +160,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">
-                Welcome to the official practice of <strong>Dr. Sarah Jenkins, MD, FACC</strong>.
+                Welcome to the official practice of <strong>Dr. Farzana Tarannum Suma,MBBS, MD, FACC</strong>.
                 Combining 16+ years of clinical excellence, cutting-edge diagnostic technology,
                 and seamless online scheduling to protect what matters most: your health.
               </p>
@@ -213,16 +214,16 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-6 shadow-2xl border border-slate-200/80 relative overflow-hidden">
                   <div className="relative h-80 sm:h-96 w-full rounded-2xl overflow-hidden mb-6 bg-slate-100">
                     <img
-                      src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&auto=format&fit=crop&q=80"
-                      alt="Dr. Sarah Jenkins, MD, FACC"
+                      src="/images/Dr.Suma.jpg"
+                      alt="Dr. Farzana Tarannum Suma,MBBS, MD, FACC"
                       className="w-full h-full object-cover object-top"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent flex flex-col justify-end p-6 text-white">
                       <span className="text-xs font-semibold bg-teal-500 text-white px-2.5 py-1 rounded-full w-fit mb-1">
-                        Senior Attending Physician
+                        Senior Obstetrics & Gynecology
                       </span>
-                      <h3 className="text-2xl font-bold">Dr. Sarah Jenkins</h3>
-                      <p className="text-xs text-slate-200">MD (Harvard), FACC (Cardiology)</p>
+                      <h3 className="text-2xl font-bold">Dr. Farzana Tarannum Suma</h3>
+                      <p className="text-xs text-slate-200">MBBS (Dhaka), FACC (Obstetrics & Gynecology)</p>
                     </div>
                   </div>
 
@@ -232,7 +233,7 @@ export default function HomePage() {
                       <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
                       <div className="text-xs">
                         <span className="font-bold text-slate-800 block">Board Certified Specialist</span>
-                        <span className="text-slate-500">American Board of Internal Medicine</span>
+                        <span className="text-slate-500">Banggo bandhu Madical College & Hospital</span>
                       </div>
                     </div>
 
@@ -273,10 +274,10 @@ export default function HomePage() {
 
           <div className="flex items-center gap-4 shrink-0 w-full md:w-auto">
             <a
-              href="tel:+15553827492"
+              href="tel: 01718088596"
               className="w-full md:w-auto text-center px-6 py-3.5 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl shadow-md transition-all text-sm"
             >
-              Call +1 (555) 382-7492
+              Call  (880) 0178088596
             </a>
           </div>
         </div>
@@ -364,7 +365,7 @@ export default function HomePage() {
               How Your Care Works
             </h2>
             <p className="text-slate-400 text-sm mt-2">
-              Book online, connect with Dr. Jenkins, and manage your health seamlessly from any device.
+              Book online, connect with Dr.Farzana Tarannum Suma, and manage your health seamlessly from any device.
             </p>
           </div>
 
@@ -387,7 +388,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Detailed Consultation</h3>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Discuss your symptoms in an attentive, unhurried session. Dr. Jenkins reviews past records, vitals, and conducts targeted medical exams.
+                Discuss your symptoms in an attentive, unhurried session. Dr. Farzana Tarannum Suma reviews past records, vitals, and conducts targeted medical exams.
               </p>
             </div>
 
@@ -443,20 +444,20 @@ export default function HomePage() {
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <span className="text-xs uppercase font-bold text-teal-300 tracking-wider">
-                Visit Dr. Sarah Jenkins Medical Practice
+                Visit Dr.Farzana Tarannum Suma Medical Practice 
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold mt-2 leading-tight">
                 Ready For Personalized, Compassionate Healthcare?
               </h2>
               <p className="text-teal-100 text-sm mt-4 leading-relaxed max-w-lg">
-                Whether you need a routine annual physical, cardiology workup, or immediate telehealth support, our clinical team is ready to serve you.
+                Whether you need a routine annual physical,Obstetrics & Gynecology, cardiology workup, or immediate telehealth support, our clinical team is ready to serve you.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 text-xs text-teal-200">
                 <span className="flex items-center gap-1.5">
-                  <MapPin className="w-4 h-4 text-teal-300" /> Suite 400, Apex Health Tower, New York
+                  <MapPin className="w-4 h-4 text-teal-300" /> Grameen Kollan Institute , Mirpur, Dhaka.
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <Clock className="w-4 h-4 text-teal-300" /> Mon - Sat: 9:00 AM - 6:00 PM
+                  <Clock className="w-4 h-4 text-teal-300" /> Mon - Thus: 9:00 AM - 5:00 PM
                 </span>
               </div>
             </div>

@@ -77,8 +77,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 text-sm">Clinic Address</h4>
-                  <p className="mt-0.5">Suite 400, Apex Medical Tower</p>
-                  <p>742 Evergreen Medical Blvd, New York, NY 10001</p>
+                  <p className="mt-0.5">Grameen Kollan  Tower</p>
+                  <p>Mirpur, Dhaka, Bangladesh</p>
                   <span className="text-teal-700 font-semibold block mt-1">Valet & garage parking available</span>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 text-sm">Direct Phone</h4>
-                  <p className="mt-0.5">Reception: +1 (555) 382-7492</p>
+                  <p className="mt-0.5">Reception: +1 (880) 01718088596</p>
                   <p>Emergency Triage: 911</p>
                 </div>
               </div>
@@ -100,8 +100,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 text-sm">Email Address</h4>
-                  <p className="mt-0.5">doctor@drjenkinsclinic.com</p>
-                  <p>reception@drjenkinsclinic.com</p>
+                  <p className="mt-0.5">farzanafts@gmail.com</p>
+                  <p>drfarzana@gmail.com</p>
                 </div>
               </div>
 
@@ -111,9 +111,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 text-sm">Consultation Hours</h4>
-                  <p className="mt-0.5">Monday – Friday: 9:00 AM – 6:00 PM</p>
-                  <p>Saturday: 10:00 AM – 3:00 PM</p>
-                  <p className="text-rose-600 font-medium">Sunday: Closed for Routine Consultations</p>
+                  <p className="mt-0.5">Monday – Thusday: 9:00 AM – 5:00 PM</p>
+                  <p>Saturday: 10:00 AM – 1:00 PM</p>
+                  <p className="text-rose-600 font-medium">Fryday: Closed for Routine Consultations</p>
                 </div>
               </div>
             </div>

@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5">
               <Clock className="w-3.5 h-3.5 text-teal-400" />
-              <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+              <span>Mon - Sat: 9:00 AM - 5:00 PM</span>
             </span>
             <span className="hidden md:flex items-center gap-1.5">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -46,7 +46,7 @@ export default function Navbar() {
               className="flex items-center gap-1 text-slate-200 hover:text-teal-300 transition-colors"
             >
               <PhoneCall className="w-3.5 h-3.5 text-teal-400" />
-              <span>Clinic: +1 (555) 382-7492</span>
+              <span>Clinic: +1 (880) 01718088596</span>
             </a>
             <span className="text-slate-600">|</span>
             <span className="text-red-400 font-medium flex items-center gap-1">
@@ -66,12 +66,12 @@ export default function Navbar() {
             </div>
             <div>
               <div className="font-bold text-xl text-slate-900 tracking-tight flex items-center gap-1.5">
-                <span>Dr. Sarah Jenkins</span>
+                <span>Dr. Farzana Tarannum Suma</span>
                 <span className="text-xs bg-teal-100 text-teal-800 font-semibold px-2 py-0.5 rounded-full">
                   MD, FACC
                 </span>
               </div>
-              <p className="text-xs text-slate-500 font-medium">Comprehensive Medical & Heart Care</p>
+              <p className="text-xs text-slate-500 font-medium">Comprehensive Medical,Obstetrics & Gynecology & Heart Care</p>
             </div>
           </Link>
 

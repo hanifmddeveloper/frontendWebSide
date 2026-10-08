@@ -24,16 +24,16 @@ export default function AboutPage() {
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] bg-slate-100">
               <img
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&auto=format&fit=crop&q=80"
-                alt="Dr. Sarah Jenkins, MD"
+                src="/images/Dr.Suma.jpg"
+                alt="Dr. Farzana Tarannum Suma,MBBS, MD"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex flex-col justify-end p-6 text-white">
                 <span className="text-xs bg-teal-500 text-white font-bold px-3 py-1 rounded-full w-fit mb-1">
                   16+ Years Clinical Excellence
                 </span>
-                <h3 className="text-2xl font-bold">Dr. Sarah Jenkins</h3>
-                <p className="text-xs text-slate-200">MD (Harvard), FACC (Cardiology)</p>
+                <h3 className="text-2xl font-bold">Dr.Farzana Tarannum Suma</h3>
+                <p className="text-xs text-slate-200"> MBBS(Dkaka),MD (Dhaka), FACC (BSMC)</p>
               </div>
             </div>
           </div>
@@ -50,21 +50,21 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Dr. Sarah Jenkins is a double board-certified physician specializing in Internal Medicine and Cardiovascular Diseases. Over the course of 16 years in clinical practice, she has spearheaded modern outpatient diagnostic models that combine evidence-based protocols with deeply attentive patient listening.
+            Dr. Farzana Tarannum Suma is a double board-certified physician specializing in Internal Medicine and Cardiovascular Diseases. Over the course of 16 years in clinical practice, she has spearheaded modern outpatient diagnostic models that combine evidence-based protocols with deeply attentive patient listening.
           </p>
 
           <p className="text-slate-600 text-sm leading-relaxed">
-            Prior to establishing her private practice at Apex Medical Tower, Dr. Jenkins served as Chief Resident at Harvard Medical School&apos;s affiliated teaching hospitals and subsequently completed her fellowship at the American College of Cardiology.
+            Prior to establishing her private practice at Grameen Kollan Institute , Dr. Farzana Tarannum served as Chief  Medical officer & apos;s affiliated teaching hospitals and subsequently completed her fellowship at the Malayshia College ofObstetrics & Gynecology.
           </p>
 
           <div className="grid grid-cols-2 gap-4 pt-2 text-xs">
             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-100">
               <span className="font-bold text-slate-800 block text-sm">Languages Spoken</span>
-              <span className="text-slate-600">English, Spanish, French (Fluent)</span>
+              <span className="text-slate-600">English, Hindi, Bangla (Fluent)</span>
             </div>
             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-100">
               <span className="font-bold text-slate-800 block text-sm">Hospital Privileges</span>
-              <span className="text-slate-600">Metropolitan General Hospital</span>
+              <span className="text-slate-600">National Madical College & Hospital</span>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ export default function AboutPage() {
               className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-teal-600/30 transition-all text-sm"
             >
               <Calendar className="w-4 h-4" />
-              <span>Schedule A Consultation With Dr. Jenkins</span>
+              <span>Schedule A Consultation With Dr.Farzana Tarannum</span>
             </Link>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
       <div>
         <div className="text-center max-w-xl mx-auto mb-8">
           <h2 className="text-2xl font-bold text-slate-900">Education & Board Certifications</h2>
-          <p className="text-xs text-slate-500 mt-1">Credentials verified by the American Medical Association</p>
+          <p className="text-xs text-slate-500 mt-1">Credentials verified by the Bangladesh Medical Association</p>
         </div>
         <DoctorCredentials />
       </div>

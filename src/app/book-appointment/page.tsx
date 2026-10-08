@@ -236,7 +236,7 @@ function BookingContent() {
                 1. Choose Consultation Format
               </h3>
               <p className="text-xs text-slate-500 mb-4">
-                Select whether you want to visit Dr. Jenkins in our New York clinic or consult remotely.
+                Select whether you want to visit Dr. Farzana Tarannum in our Grameen Kollan  clinic or consult remotely.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -255,7 +255,7 @@ function BookingContent() {
                   <div>
                     <h4 className="font-bold text-sm text-slate-900">In-Person Clinic Visit</h4>
                     <p className="text-xs text-slate-500 mt-1">
-                      Apex Medical Tower, Suite 400. Full physical exam & on-site diagnostic tests.
+                      Grameen Kollan Institute is Fully physical exam & on-site diagnostic tests.
                     </p>
                   </div>
                 </button>
@@ -287,7 +287,7 @@ function BookingContent() {
                 2. Select Medical Service
               </h3>
               <p className="text-xs text-slate-500 mb-4">
-                Select the service you wish to schedule with Dr. Jenkins.
+                Select the service you wish to schedule with Dr. Farzana Tarannum.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[380px] overflow-y-auto pr-1">
@@ -509,14 +509,14 @@ function BookingContent() {
 
                 <div className="sm:col-span-2">
                   <label className="block text-xs font-bold text-slate-700 mb-1">
-                    Phone / WhatsApp Number:
+                    Phone / WhatsApp Number: 01718088596
                   </label>
                   <input
                     type="tel"
                     required
                     value={patientPhone}
                     onChange={(e) => setPatientPhone(e.target.value)}
-                    placeholder="e.g. +1 (555) 234-5678"
+                    placeholder="e.g. +1 (880) 01718088596"
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-teal-500 focus:outline-none"
                   />
                 </div>
@@ -544,7 +544,7 @@ function BookingContent() {
               </div>
               <div className="flex justify-between text-slate-700">
                 <span>Doctor:</span>
-                <span className="font-semibold">Dr. Sarah Jenkins, MD, FACC</span>
+                <span className="font-semibold">Dr. Farzana Tarannum Suma, MD, FACC</span>
               </div>
               <div className="flex justify-between text-slate-700">
                 <span>Service:</span>
@@ -560,7 +560,7 @@ function BookingContent() {
               </div>
               <div className="flex justify-between border-t border-slate-200 pt-2 font-bold text-sm text-slate-900">
                 <span>Total Consultation Fee:</span>
-                <span className="text-teal-700">${selectedService?.price}</span>
+                <span className="text-teal-700">Tk{selectedService?.price}</span>
               </div>
             </div>
 

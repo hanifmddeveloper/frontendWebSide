@@ -25,7 +25,7 @@ export default function Footer() {
                 <HeartPulse className="w-6 h-6 text-white" />
               </div>
               <span className="font-bold text-lg text-white tracking-tight">
-                Dr. Sarah Jenkins Medical Practice
+                Dr. Farzana Tarannum Suma Medical Practice
               </span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
@@ -61,6 +61,11 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services" className="hover:text-teal-400 transition-colors flex items-center gap-1.5">
+                  <ArrowRight className="w-3.5 h-3.5 text-teal-500" /> Obstetrics & Gynecology
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-teal-400 transition-colors flex items-center gap-1.5">
                   <ArrowRight className="w-3.5 h-3.5 text-teal-500" /> Virtual Telehealth Video Care
                 </Link>
               </li>
@@ -84,15 +89,15 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li className="flex justify-between py-1 border-b border-slate-900">
-                <span className="text-slate-300">Monday - Friday</span>
-                <span className="text-teal-400 font-medium">9:00 AM - 6:00 PM</span>
+                <span className="text-slate-300">Monday - Thusday</span>
+                <span className="text-teal-400 font-medium">9:00 AM - 5:00 PM</span>
               </li>
               <li className="flex justify-between py-1 border-b border-slate-900">
                 <span className="text-slate-300">Saturday</span>
                 <span className="text-teal-400 font-medium">10:00 AM - 3:00 PM</span>
               </li>
               <li className="flex justify-between py-1">
-                <span className="text-slate-300">Sunday</span>
+                <span className="text-slate-300">Fryday</span>
                 <span className="text-rose-400 font-medium">Emergency Calls Only</span>
               </li>
             </ul>
@@ -110,18 +115,18 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <p className="flex items-start gap-2.5 text-slate-400">
                 <MapPin className="w-4 h-4 text-teal-400 mt-1 shrink-0" />
-                <span>Suite 400, Apex Medical Tower, 742 Evergreen Medical Blvd, New York, NY 10001</span>
+                <span>Grameen Kollan Institute, Mirpur, Dhaka,Bangladesh</span>
               </p>
               <p className="flex items-center gap-2.5 text-slate-400">
                 <Phone className="w-4 h-4 text-teal-400 shrink-0" />
                 <a href="tel:+15553827492" className="hover:text-white transition-colors">
-                  +1 (555) 382-7492
+                   (880) 01718088596
                 </a>
               </p>
               <p className="flex items-center gap-2.5 text-slate-400">
                 <Mail className="w-4 h-4 text-teal-400 shrink-0" />
                 <a href="mailto:doctor@drjenkinsclinic.com" className="hover:text-white transition-colors">
-                  doctor@drjenkinsclinic.com
+                  farzana.fts@gmail.com
                 </a>
               </p>
               <div className="pt-2">
@@ -146,7 +151,7 @@ export default function Footer() {
         {/* Bottom medical disclaimer */}
         <div className="pt-8 border-t border-slate-900 text-xs text-slate-500 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>
-            © {new Date().getFullYear()} Dr. Sarah Jenkins Medical Practice. All rights reserved. HIPAA Compliant & Secure.
+            © {new Date().getFullYear()} Dr. Farzana Tarannum Suma Medical Practice. All rights reserved. HIPAA Compliant & Secure.
           </p>
           <p className="text-center md:text-right text-slate-400 max-w-xl">
             <strong className="text-rose-400">Medical Notice:</strong> Information on this website is for educational and scheduling purposes. If you are experiencing a life-threatening emergency, call 911 or head to the nearest emergency department immediately.
